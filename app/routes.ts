@@ -1,5 +1,5 @@
 import { type RouteConfig, relative ,route ,prefix, layout} from "@react-router/dev/routes";
-import { GlobalConfig } from "@/utils/config";
+import { GlobalConfig } from "app/utils/config.ts";
 const client = relative("app/routes/.client");
 export default [
     ...prefix(GlobalConfig.prefix,[
