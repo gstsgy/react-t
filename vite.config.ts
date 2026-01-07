@@ -4,6 +4,7 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
+  base:'./',
   server: {
     host: '0.0.0.0', // 监听所有 IPv4 地址（包括本机和局域网）
     port: 3000,      // 可选：指定端口
