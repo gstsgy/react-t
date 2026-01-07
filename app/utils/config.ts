@@ -3,6 +3,7 @@
 interface AppConfig {
     apiUrl: string;
     timeout: number;
+    prefix:string,
     featureFlags: {
       newDashboard: boolean;
     };
@@ -12,6 +13,7 @@ interface AppConfig {
   const DEFAULT_CONFIG: AppConfig = {
     apiUrl: "http://localhost:8080",
     timeout: 5000,
+    prefix:'react-t',
     featureFlags: {
       newDashboard: false
     }
