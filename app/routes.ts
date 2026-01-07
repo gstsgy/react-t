@@ -10,7 +10,7 @@ export default [
             //client.route("/home","Common/Home/index.tsx"),
             client.route("/test", "Common/Test/index.tsx"),
         ])
-    ]
+    ])
     
    
 ] satisfies RouteConfig;
