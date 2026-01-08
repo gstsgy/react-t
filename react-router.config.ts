@@ -3,7 +3,7 @@ export default {
   future: {
     v8_middleware: true,
   },
-  basename: '/react-t',
+  basename: '/react-t/',
   //unstable_middleware: true,  // ← 改为这个
   // Config options...
   // Server-side render by default, to enable SPA mode set this to `false`
